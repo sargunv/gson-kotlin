@@ -1,2 +1,2 @@
-# gson-kotlin
-Kotlin extensions for Gson
+# Gson Kotlin Extension
+Kotlin extensions for Gson.
