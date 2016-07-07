@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sargunster/gson-kotlin.svg?branch=master)](https://travis-ci.org/sargunster/gson-kotlin)
+
 # Gson Kotlin Extension
 
 This is an extension to Gson to add Kotlin specific features.
