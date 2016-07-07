@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/sargunster/gson-kotlin.svg?branch=master)](https://travis-ci.org/sargunster/gson-kotlin)
+[![Download](https://api.bintray.com/packages/sargunster/maven/gson-kotlin/images/download.svg) ](https://bintray.com/sargunster/maven/gson-kotlin/_latestVersion)
 
 # Gson Kotlin Extension
 
