@@ -19,6 +19,7 @@ val core = project {
 
     dependencies {
         compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+        compile("org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}")
         compile("com.google.code.gson:gson:${Versions.gson}")
     }
 
