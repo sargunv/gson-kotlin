@@ -6,7 +6,7 @@ import org.jetbrains.annotations.Nullable;
 // Writing this class in Java reminded me why I love Kotlin so much...
 // Just compare this to the 1-line Kotlin equivalent 'KFoo.kt'!
 
-class JFoo {
+public class JFoo {
 
     @NotNull
     private final String x;

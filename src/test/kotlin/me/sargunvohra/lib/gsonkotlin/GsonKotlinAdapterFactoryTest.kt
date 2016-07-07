@@ -3,8 +3,9 @@ package me.sargunvohra.lib.gsonkotlin
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonParseException
-import org.junit.Test
+import org.testng.annotations.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFailsWith
 
 class GsonKotlinAdapterFactoryTest {
 
@@ -56,9 +57,11 @@ class GsonKotlinAdapterFactoryTest {
         assertEquals(g, k)
     }
 
-    @Test(expected = JsonParseException::class)
+    @Test
     fun nullCheckGood() {
-        kson.fromJson(allNullJson, KFoo::class.java)
+        assertFailsWith(JsonParseException::class, "Field 'x' not marked nullable but found null value") {
+            kson.fromJson(allNullJson, KFoo::class.java)
+        }
     }
 
     @Test

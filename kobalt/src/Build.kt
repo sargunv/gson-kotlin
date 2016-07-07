@@ -1,12 +1,13 @@
 import com.beust.kobalt.plugin.packaging.assemble
 import com.beust.kobalt.plugin.publish.bintray
 import com.beust.kobalt.project
+import com.beust.kobalt.test
 
 object Versions {
     val thisProject = "0.1.0"
     val kotlin = "1.0.3"
     val gson = "2.7"
-    val junit = "4.12"
+    val testng = "6.9.10"
 }
 
 @Suppress("unused")
@@ -25,12 +26,15 @@ val core = project {
 
     dependenciesTest {
         compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
-        compile("junit:junit:${Versions.junit}")
+        compile("org.testng:testng:${Versions.testng}")
     }
 
     assemble {
         jar {}
         mavenJars {}
+    }
+
+    test {
     }
 
     bintray {
