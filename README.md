@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sargunster/gson-kotlin.svg?branch=master)](https://travis-ci.org/sargunster/gson-kotlin)
+
 # Gson Kotlin Extension
 
 This is an extension to Gson to add Kotlin specific features.
@@ -9,6 +11,7 @@ Current:
 
 Todo:
  - Convenience extension functions
+ - Suggestions for additional features are welcome!
 
 ## Usage
 
@@ -20,8 +23,8 @@ val gson = GsonBuilder()
 
 ## Download
 
-This library is available at my Bintray repository
+This library is available at my Bintray repository `https://dl.bintray.com/sargunster/maven`. It'll soon be on JCenter.
 
-```gradle
+```groovy
 compile("me.sargunvohra.lib:gson-kotlin:0.1.0")
 ```
