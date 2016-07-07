@@ -9,6 +9,7 @@ Current:
 
 Todo:
  - Convenience extension functions
+ - Suggestions for additional features are welcome!
 
 ## Usage
 
@@ -22,6 +23,6 @@ val gson = GsonBuilder()
 
 This library is available at my Bintray repository
 
-```gradle
+```groovy
 compile("me.sargunvohra.lib:gson-kotlin:0.1.0")
 ```
