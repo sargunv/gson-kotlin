@@ -11,7 +11,7 @@ object Versions {
 }
 
 @Suppress("unused")
-val core = project {
+val p = project {
 
     name = "gson-kotlin"
     group = "me.sargunvohra.lib"
