@@ -5,9 +5,9 @@ import com.beust.kobalt.test
 
 object Versions {
     val thisProject = "0.1.0"
-    val kotlin = "1.0.3"
-    val gson = "2.7"
-    val testng = "6.9.10"
+    val kotlin = "1.1.3-2"
+    val gson = "2.8.1"
+    val testng = "6.11"
 }
 
 @Suppress("unused")
