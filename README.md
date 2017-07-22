@@ -27,5 +27,5 @@ val gson = GsonBuilder()
 This library is available at my Bintray repository `https://dl.bintray.com/sargunster/maven`. It'll soon be on JCenter.
 
 ```groovy
-compile("me.sargunvohra.lib:gson-kotlin:0.1.0")
+compile("me.sargunvohra.lib:gson-kotlin:0.2.0")
 ```

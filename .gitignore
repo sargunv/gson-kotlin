@@ -3,3 +3,5 @@ kobaltBuild
 
 *.iml
 .idea/
+
+local.properties
