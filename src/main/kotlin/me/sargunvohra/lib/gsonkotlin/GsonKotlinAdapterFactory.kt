@@ -53,7 +53,7 @@ class GsonKotlinAdapterFactory(
                 prop.isAccessible = true
                 if (!prop.returnType.isMarkedNullable && prop(value) == null)
                     throw JsonParseException(
-                            "Field: '${prop.name}' in Class '${prop.returnType.javaType.typeName}' is not marked nullable but found null value"
+                            "Field: '${prop.name}' in Class '${prop.returnType.javaClass.typeName}' is not marked nullable but found null value"
                     )
             }
         }
